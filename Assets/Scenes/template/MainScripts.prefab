@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4028146945456175354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2239075114224294792}
+  - component: {fileID: 717203140816901912}
+  - component: {fileID: 7053663425162538988}
+  - component: {fileID: 5513550000120383836}
+  m_Layer: 0
+  m_Name: MainScripts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2239075114224294792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4028146945456175354}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.52, y: -1.1246443, z: 97.90798}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &717203140816901912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4028146945456175354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a9dca737a5c31247a873d5df33a5439, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hair_color: Lipinki
+  eyes_color: Luzyckie
+  age: 69
+  description: Laczna 32
+  hairColor: {fileID: 0}
+  eyesColor: {fileID: 0}
+  year: {fileID: 0}
+  descriptionTxt: {fileID: 0}
+--- !u!114 &7053663425162538988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4028146945456175354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36a7b002157fed548ae561bb32898104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5513550000120383836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4028146945456175354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c3723b1e3dfcf6448fc2c66d6087a83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameSurname: {fileID: 0}
+  hairColor: {fileID: 0}
+  age: {fileID: 0}
+  eyesColor: {fileID: 0}
+  suspectDescription: {fileID: 0}
+  suspectImage: {fileID: 0}
+  susImages:
+  - {fileID: 21300000, guid: 6b585472ae785594e99fe4225ce0cc74, type: 3}
+  - {fileID: 21300000, guid: 6b585472ae785594e99fe4225ce0cc74, type: 3}
+  - {fileID: 21300000, guid: a7465e4ca6f4f164d8e9ef05d765c30d, type: 3}
+  actualSuspectID: 1
+  wantedSuspectID: 0

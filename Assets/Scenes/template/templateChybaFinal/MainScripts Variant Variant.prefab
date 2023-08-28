@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3851837263542754480
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: ages.Array.data[0]
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: ages.Array.data[1]
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: ages.Array.data[2]
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: names.Array.data[0]
+      value: Mathew Notched
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: names.Array.data[1]
+      value: Adam Smallsh
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: names.Array.data[2]
+      value: Nina Kinsell
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: exp_dates.Array.data[0]
+      value: 02.03.1983
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: exp_dates.Array.data[1]
+      value: 06.02.1994
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: exp_dates.Array.data[2]
+      value: 01.01.1985
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: residence.Array.data[0]
+      value: Norway
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: residence.Array.data[1]
+      value: Kad West dst.
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: residence.Array.data[2]
+      value: Bunnin dst.
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: eyes_colors.Array.data[0]
+      value: Brown
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: eyes_colors.Array.data[1]
+      value: Black
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: eyes_colors.Array.data[2]
+      value: Brown
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: descriptions.Array.data[0]
+      value: Seen few minutes after report he was running to Bunnin dst. direciton
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: descriptions.Array.data[1]
+      value: Sex addict, having affair with redhead girl at the time of report
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: descriptions.Array.data[2]
+      value: Prostitute, beign at work when accident happened
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: hairs_colors.Array.data[0]
+      value: Blonde
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: hairs_colors.Array.data[1]
+      value: Black
+      objectReference: {fileID: 0}
+    - target: {fileID: 439610458967424085, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: hairs_colors.Array.data[2]
+      value: Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134076952612248293, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: susIDimages.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134076952612248293, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: susImages.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 4e5c1a2dc06e36249a1ff7cb65d06f1d, type: 3}
+    - target: {fileID: 3134076952612248293, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: susImages.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: f38f3c60cb3f33748b0e893bcce24575, type: 3}
+    - target: {fileID: 3134076952612248293, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: susImages.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 0f8eb81e5f7bb604a84e4cf937e378a1, type: 3}
+    - target: {fileID: 3134076952612248293, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: susIDimages.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: c02c3f1a856697b4cb97cd2fc10c5141, type: 3}
+    - target: {fileID: 3134076952612248293, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: susIDimages.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 910719ea015e73d49a6fa881e9aca9a3, type: 3}
+    - target: {fileID: 3134076952612248293, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: susIDimages.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: a81b00ad8e0e7234894fc488f6aa3ae4, type: 3}
+    - target: {fileID: 5772683089948683075, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: m_Name
+      value: MainScripts Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930397582551499937, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: age
+      value: 20-24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930397582551499937, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: eyes_color
+      value: Brown
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930397582551499937, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: hair_color
+      value: Blonde
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930397582551499937, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: description
+      value: Gender unknown, blonde with foreign accent
+      objectReference: {fileID: 0}
+    - target: {fileID: 8712389493140178993, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 8712389493140178993, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.1246443
+      objectReference: {fileID: 0}
+    - target: {fileID: 8712389493140178993, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 97.90798
+      objectReference: {fileID: 0}
+    - target: {fileID: 8712389493140178993, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8712389493140178993, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8712389493140178993, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8712389493140178993, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8712389493140178993, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8712389493140178993, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8712389493140178993, guid: d1c085716d0e8874397f28b58648ffae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d1c085716d0e8874397f28b58648ffae, type: 3}

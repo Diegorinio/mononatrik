@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/menu/menu.unity
+    guid: d7c012998d1fc174c922055de8201f2e
+  - enabled: 1
+    path: Assets/Scenes/intro/final/intro.unity
+    guid: f576de4a14c9b4f4f81c73ee62bb9ead
+  - enabled: 1
+    path: Assets/Scenes/day1.unity
+    guid: 1bab9bad6b0264b4682889ffb04380c6
+  - enabled: 1
+    path: Assets/Scenes/day_ending.unity
+    guid: f27a265e149885e478024537efbbdec5
+  - enabled: 1
+    path: Assets/Scenes/day2.unity
+    guid: bd692750a3b75714d94d0efe6d51dc10
+  - enabled: 1
+    path: Assets/Scenes/day3.unity
+    guid: 908edd297d94164499401802d5d04ce4
+  - enabled: 1
+    path: Assets/Scenes/ending/ending.unity
+    guid: d808cdedb6177c74192721900942b95a
+  - enabled: 1
+    path: Assets/Scenes/ending/bad_ending.unity
+    guid: 030c81f5f57cfcf41ae0e4bf88ac2d80
+  - enabled: 1
+    path: Assets/Scenes/ending/finalScreen.unity
+    guid: 4648aebbc90c011479d5954956c65b1a
+  - enabled: 1
+    path: Assets/Scenes/tutorial.unity
+    guid: 7f9b8a99629c39545835805b221beb14
+  - enabled: 1
+    path: Assets/Scenes/menu/credits.unity
+    guid: d5d85c6276b98914c89675faf13c4369
+  - enabled: 1
+    path: Assets/Scenes/scean3/cut3.unity
+    guid: d71d51cab4c1c1740a23793bb7c52c99
+  m_configObjects: {}
