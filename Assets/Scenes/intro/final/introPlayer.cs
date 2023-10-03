@@ -18,7 +18,7 @@ public class introPlayer : MonoBehaviour
         actImage = GetComponent<Image>();
 
         len = GetComponent<AudioSource>().clip.length;
-        StartCoroutine(PoczekajKurwa());
+        StartCoroutine(Poczekaj());
     }
 
     // Update is called once per frame
@@ -44,9 +44,7 @@ public class introPlayer : MonoBehaviour
             actImage.sprite = images[2];
 
     }
-
-
-    IEnumerator PoczekajKurwa()
+    IEnumerator Poczekaj()
     {
         yield return new WaitForSeconds((float)len);
         SceneManager.LoadScene("day1", LoadSceneMode.Single);

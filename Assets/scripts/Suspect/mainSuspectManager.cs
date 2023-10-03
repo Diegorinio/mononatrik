@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-public class MainSuspectManager : MonoBehaviour
+public class mainSuspectManager : MonoBehaviour
 {
     Suspect[] suspects = new Suspect[3];
     public Text nameSurname;
@@ -29,7 +29,7 @@ public class MainSuspectManager : MonoBehaviour
         ActualSuspect = suspects[0];
         actualSuspectID = 0;
         FillSuspectInfo(actualSuspectID);
-        SuspectEndingMainScript.wantedSuspectId = wantedSuspectID;
+        suspectEndingMainScript.wantedSuspectId = wantedSuspectID;
     }
 
     public void FillSuspectInfo(int id)

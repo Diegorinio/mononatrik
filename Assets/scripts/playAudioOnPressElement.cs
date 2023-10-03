@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayAudioOnPressElement : MonoBehaviour
+public class playAudioOnPressElement : MonoBehaviour
 {
     public AudioSource audioSrc;
     // Start is called before the first frame update

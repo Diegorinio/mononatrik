@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SuspectSwitcher : MonoBehaviour
+public class suspectSwitcher : MonoBehaviour
 {
     public GameObject MainManager;
-    public MainSuspectManager manager;
+    public mainSuspectManager manager;
     public AudioSource audioSource;
     public AudioClip switchSound;
     public GameObject fadePanel;
@@ -13,7 +13,7 @@ public class SuspectSwitcher : MonoBehaviour
     int actualID;
     private void Start()
     {
-        manager = MainManager.GetComponent<MainSuspectManager>();
+        manager = MainManager.GetComponent<mainSuspectManager>();
         audioSource = GetComponent<AudioSource>();
         actualID = manager.actualSuspectID;
     }

@@ -4,11 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class goToScene : MonoBehaviour
 {
-    [SerializeField]
     public string sceneID;
     public void OnMouseDown()
     {
         SceneManager.LoadScene(sceneID, LoadSceneMode.Single);
-        Debug.Log("go to scene "+ sceneID);
+        Debug.Log($"go to scene {sceneID}");
     }
 }

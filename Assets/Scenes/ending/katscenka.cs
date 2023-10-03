@@ -12,12 +12,6 @@ public class katscenka : MonoBehaviour
         StartCoroutine(wait(audioLen));
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     IEnumerator wait(float waitTime)
     {
         yield return new WaitForSeconds(waitTime+1);

@@ -2,24 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SuspectSelector : MonoBehaviour
+public class suspectSelector : MonoBehaviour
 {
     public GameObject MainManager;
-    private MainSuspectManager manager;
+    private mainSuspectManager manager;
     private int actualID;
     public GameObject susSelector;
     bool isActive = false;
     // Start is called before the first frame update
     void Start()
     {
-        manager = MainManager.GetComponent<MainSuspectManager>();
+        manager = MainManager.GetComponent<mainSuspectManager>();
         actualID = manager.actualSuspectID;
     }
 
     private void OnMouseDown()
     {
         actualID = manager.actualSuspectID;
-        isActive = susSelector.active;
+        isActive = susSelector.activeInHierarchy;
         if (!isActive)
         {
             susSelector.SetActive(true);
@@ -29,7 +29,7 @@ public class SuspectSelector : MonoBehaviour
             susSelector.SetActive(false);
             isActive = false;
         }
-        SuspectEndingMainScript.selectedSuspect = actualID;
-        SuspectEndingMainScript.SuspectName = manager.nameSurname.text;
+        suspectEndingMainScript.selectedSuspect = actualID;
+        suspectEndingMainScript.SuspectName = manager.nameSurname.text;
     }
 }

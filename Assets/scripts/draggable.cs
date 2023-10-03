@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Draggable : MonoBehaviour
+public class draggable : MonoBehaviour
 {
     bool isheld = false;
     public Vector3 space;
@@ -30,7 +30,6 @@ public class Draggable : MonoBehaviour
         if (isheld)
         {
             Vector3 pos = GetMousePos() + space;
-            //Nie wypierdalaj w osi z
             pos.z = transform.position.z;
             transform.position = pos;
         }

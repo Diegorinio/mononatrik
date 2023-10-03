@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UsableElement : MonoBehaviour
+public class usableElement : MonoBehaviour
 {
     public Sprite[] states = new Sprite[2];
     public Image imageRenderer;

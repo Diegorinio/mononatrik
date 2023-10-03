@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class disableobjectwithclick : MonoBehaviour
+public class disableObjectWithClick : MonoBehaviour
 {
     private void OnMouseDown()
     {
-        Debug.Log("Wypierdol");
+        Debug.Log($"Disabled {gameObject.name}");
         gameObject.SetActive(false);
     }
 }

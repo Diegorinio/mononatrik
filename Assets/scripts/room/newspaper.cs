@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Newspaper : MonoBehaviour
+public class newspaper : MonoBehaviour
 {
     public GameObject newspaperPanel;
     // Start is called before the first frame update
@@ -11,15 +11,9 @@ public class Newspaper : MonoBehaviour
         newspaperPanel.SetActive(true);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnMouseDown()
     {
-        if(!newspaperPanel.active)
+        if(!newspaperPanel.activeInHierarchy)
         {
             GetComponent<AudioSource>().Play();
             newspaperPanel.SetActive(true);

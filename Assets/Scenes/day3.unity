@@ -461,6 +461,18 @@ PrefabInstance:
       value: Mononatrik
       objectReference: {fileID: 0}
     - target: {fileID: 6824170162826619795, guid: 155e2cd58eb54b74592d8e6d8d4e4aa8, type: 3}
+      propertyPath: nationality.Array.data[0]
+      value: Chile
+      objectReference: {fileID: 0}
+    - target: {fileID: 6824170162826619795, guid: 155e2cd58eb54b74592d8e6d8d4e4aa8, type: 3}
+      propertyPath: nationality.Array.data[1]
+      value: Mononatrik
+      objectReference: {fileID: 0}
+    - target: {fileID: 6824170162826619795, guid: 155e2cd58eb54b74592d8e6d8d4e4aa8, type: 3}
+      propertyPath: nationality.Array.data[2]
+      value: Mononatrik
+      objectReference: {fileID: 0}
+    - target: {fileID: 6824170162826619795, guid: 155e2cd58eb54b74592d8e6d8d4e4aa8, type: 3}
       propertyPath: descriptions.Array.data[0]
       value: Carl is a good citizen. He's enjoying siting in the park watching fish
         swimming around him

@@ -21,7 +21,6 @@ public class radio : MonoBehaviour
             isOn=false;
             audioSource.clip = OnOff;
             audioSource.Play();
-            // audioSource.Stop();
         }
         else{
             isOn=true;

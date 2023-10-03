@@ -7,7 +7,7 @@ public class kalendarzyk : MonoBehaviour
     public GameObject dateShow;
     private void OnMouseDown()
     {
-        bool isCalendar = dateShow.active;
+        bool isCalendar = dateShow.activeInHierarchy;
         if (isCalendar)
         {
             dateShow.SetActive(false);
