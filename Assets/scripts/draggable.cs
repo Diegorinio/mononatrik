@@ -6,9 +6,6 @@ public class draggable : MonoBehaviour
 {
     bool isheld = false;
     public Vector3 space;
-
-
-
     private void OnMouseDown()
     {
         if (Input.GetMouseButton(0))
